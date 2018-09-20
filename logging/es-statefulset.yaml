@@ -59,7 +59,7 @@ metadata:
     addonmanager.kubernetes.io/mode: Reconcile
 spec:
   serviceName: elasticsearch-logging
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       k8s-app: elasticsearch-logging
@@ -85,7 +85,7 @@ spec:
             cpu: 100m
         ports:
         - containerPort: 9200
-          name: db
+          name: dbkub 
           protocol: TCP
         - containerPort: 9300
           name: transport
