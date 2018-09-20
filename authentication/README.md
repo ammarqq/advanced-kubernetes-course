@@ -65,6 +65,8 @@ on the file auth0-deployment on this lines
 
             sudo pip3 install -r ../kubernetes-auth-server/requirements-cli.txt
             
-            AUTH0_CLIENT_ID=cbOppGNkaVsB5yzYazr6fZ6P50ba3B0m AUTH0_DOMAIN=ammarqqq.eu.auth0.com APP_HOST=authserver.dev.psamman.com //home/ammar/Desktop/study_guide/kubernetes/udemy/advanced-kubernetes/advanced-kubernetes-course/kubernetes-auth-server/cli-auth.py
+            AUTH0_CLIENT_ID=cbOppGNkaVsB5yzYazr6fZ6P50ba3B0m AUTH0_DOMAIN=ammarqqqq.auth0.com APP_HOST=authserver.dev.psamman.com //home/ammar/Desktop/study_guide/kubernetes/udemy/advanced-kubernetes/advanced-kubernetes-course/kubernetes-auth-server/cli-auth.py
 
-            alias kubectl="kubectl --token=\$(AUTH0_CLIENT_ID=cbOppGNkaVsB5yzYazr6fZ6P50ba3B0m AUTH0_DOMAIN=ammarqqqq.auth0.com APP_HOST=authserver.dev.psamman.com //home/ammar/Desktop/study_guide/kubernetes/udemy/advanced-kubernetes/advanced-kubernetes-course/kubernetes-auth-server/cli-auth.py)"
+            alias kubectl="kubectl --token=\$(AUTH0_CLIENT_ID=cbOppGNkaVsB5yzYazr6fZ6P50ba3B0m AUTH0_DOMAIN=ammarqqqq.auth0.com APP_HOST=authserver.dev.psamman.com   /home/ammar/Desktop/study_guide/kubernetes/udemy/advanced-kubernetes/advanced-kubernetes-course/kubernetes-auth-server/cli-auth.py)"
+
+            https://kubernetes.io/docs/reference/access-authn-authz/authentication/
