@@ -21,3 +21,11 @@ Example app:
 ```
 kubectl create -f example-application.yml
 ```
+kubectl get prometheus
+kubectl get statefulset
+kubectl get svc
+kubectl get svc/prometheus
+
+a7b6b3dc3bdb311e880ab0a64c92e7c1-140901031.eu-west-1.elb.amazonaws.com:9090
+
+status--target
